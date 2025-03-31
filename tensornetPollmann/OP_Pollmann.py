@@ -1,14 +1,11 @@
 import tensornetwork as tn
-from my_tensornetwork import MyFiniteMPS, FinitePollmann
+from my_tensornetwork import MyFiniteMPS
 
 import numpy as np
 import json
 import os
 import re
-from multiprocessing import Pool
 from tqdm import tqdm
-import time
-
 
 
 class OPPollmann:
